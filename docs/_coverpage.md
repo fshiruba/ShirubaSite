@@ -1,5 +1,3 @@
-![logo](_media/icon.svg)
-
 # docsify <small>4.11.6</small>
 
 > A magical documentation site generator.
@@ -9,4 +7,4 @@
 - Multiple themes
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Getting Started](#docsify)
+[Getting Started](#readme)
