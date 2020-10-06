@@ -1,3 +1,3 @@
 # Super Shiruba Show
 
-[Entrar](readme.md)
+[Entrar](README.md)
