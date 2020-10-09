@@ -41,7 +41,7 @@ teaser                   : "https://via.placeholder.com/500x300.png?text=teaser"
 logo                     : "https://via.placeholder.com/88x88.png?text=logo" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : "true" # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Fernando Silva"
+  name             : "Fernando P. Silva"
   avatar           : "https://via.placeholder.com/100x100.png?text=avatar" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
@@ -295,67 +295,3 @@ defaults:
       related: true
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# title: Your awesome title
-# email: your-email@example.com
-# description: >- # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
-# baseurl: "/fshiruba" # the subpath of your site, e.g. /blog
-# url: "fshiruba.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: fshiruba
-# github_username:  fshiruba
-
-# Build settings
-# theme: minima
-# remote_theme: "mmistakes/minimal-mistakes"
-# plugins:
-#   - jekyll-feed
-#   - jekyll-include-cache
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
