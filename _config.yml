@@ -108,9 +108,9 @@ analytics:
 # Site Author
 author:
   name             : "Fernando P. Silva"
-  avatar           : "https://via.placeholder.com/100x100.png?text=avatar" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  avatar           : "/assets/images/Untitled.png"
+  bio              : "C# Dev, Gamedev and sometimes artist."
+  location         : "Palhoça, SC, Brazil"
   email            : "f.shiruba@gmail.com"
   links:
     - label: "Email"
