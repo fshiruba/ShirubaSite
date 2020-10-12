@@ -38,7 +38,7 @@ url                      : "fshiruba.github.io"
 baseurl                  : "/fshiruba"
 repository               : "fshiruba/fshiruba"
 teaser                   : "https://via.placeholder.com/500x300.png?text=teaser" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "https://via.placeholder.com/88x88.png?text=logo" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo super small alpha .png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 
 #breadcrumbs              :  # true, false (default) [dont use!]
