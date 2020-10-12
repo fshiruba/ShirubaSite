@@ -11,8 +11,8 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
     - title: "Home"
-      url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+      url: https://fshiruba.github.io/fshiruba
     - title: "Blog"
-      url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+      url: https://fshiruba.github.io/fshiruba/blog/
     - title: "Portfolio"
-      url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+      url: https://fshiruba.github.io/fshiruba/portfolio/
