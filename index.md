@@ -4,6 +4,7 @@
 
 title: "Shiruba's Domain"
 layout: splash
+permalink: /
 date: 2020-10-10T10:40:50-03:00
 header:
   overlay_color: "#000"
