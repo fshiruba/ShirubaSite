@@ -2,7 +2,7 @@
 layout: single
 title:  "Bug do Log4Net me fez perder um tempão hoje"
 date:   2020-10-14 16:48:00 -0300
-categories: log4net bug log4mongo englishposts
+categories: log4net bug log4mongo lang_en
 ---
 
 **TL;DR:** log4net + log4mongo problem, ended up not using log4net
