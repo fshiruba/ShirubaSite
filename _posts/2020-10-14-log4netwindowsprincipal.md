@@ -1,8 +1,10 @@
 ---
 layout: single
 title:  "Bug do Log4Net me fez perder um tempão hoje"
-date:   2020-10-14 16:48:00 -0300
-categories: log4net bug log4mongo lang_en
+date:   2020-10-14 13:00:00 -0300
+categories: C#
+tags: log4net log4mongo bug
+excerpt: "PlatformNotSupportedException com Log4Net"
 ---
 
 **TL;DR:** log4net + log4mongo problem, ended up not using log4net

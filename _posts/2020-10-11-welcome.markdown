@@ -2,7 +2,8 @@
 layout: single
 title:  "Welcome to my blog!"
 date:   2020-10-11 23:50:00 -0300
-categories: helloworld
+categories: personal C# Unity Art
+tag: filler
 ---
 
 Welcome to my blog!
