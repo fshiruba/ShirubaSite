@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
     "\\assets\\css",
     "\\_sass\\minimal-mistakes",
-    "\\_sass\\minimal-mistakes\\skins",
-    "\\_sass\\minimal-mistakes\\vendor"
+    "\\_sass\\minimal-mistakes\\skins"
   ],
-  "SelectedNode": "\\_config.yml",
+  "SelectedNode": "\\index.md",
   "PreviewInSolutionExplorer": false
 }
