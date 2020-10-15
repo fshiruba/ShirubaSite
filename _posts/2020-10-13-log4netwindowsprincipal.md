@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "a Log4Net bug made me waste my time today"
+title:  "A Log4Net bug wasted my time today"
 date:   2020-10-14 18:40:00 -0300
 categories: C#
 tags: log4net log4mongo bug
