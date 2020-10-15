@@ -55,7 +55,7 @@ Then I decided to check the issues at GitHub annnnnd...
 ### Guess what? It's a very very specific bug within Log4Net
 
 Here it is:
-[https://issues.apache.org/jira/projects/LOG4NET/issues/LOG4NET-652?filter=allopenissues](Log4Net Issue 652)
+[Log4Net Issue 652](https://issues.apache.org/jira/projects/LOG4NET/issues/LOG4NET-652?filter=allopenissues)
 
 The idea is:
 * you have to use custom fields with Log4Net
