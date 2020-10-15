@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "Bug do Log4Net me fez perder um tempão hoje"
-date:   2020-10-13 13:00:00 -0300
+title:  "a Log4Net bug made me waste my time today"
+date:   2020-10-14 18:40:00 -0300
 categories: C#
 tags: log4net log4mongo bug
 excerpt: "PlatformNotSupportedException com Log4Net"
