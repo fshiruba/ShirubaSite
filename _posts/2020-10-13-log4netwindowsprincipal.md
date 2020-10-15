@@ -5,6 +5,9 @@ date:   2020-10-14 18:40:00 -0300
 categories: C#
 tags: log4net log4mongo bug
 excerpt: "PlatformNotSupportedException com Log4Net"
+toc: true
+toc_label: "Navigation"
+toc_icon: "columns"
 ---
 
 **TL;DR:** log4net + log4mongo problem, ended up not using log4net
