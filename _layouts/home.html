@@ -19,8 +19,8 @@ layout: archive
 
     {% for group in items_grouped%}
     {% if group.items.size> 1%}
-    {% assign post = group.items | where: "lang", page.lang | first%}
-    <p>GT1 - {{ page.lang }} - {{ post.lang }} - {{ post.ref }}</p>
+    {% assign post = group.items | where: "lang", site.lang | first%}
+    <p>GT1 - {{ site.lang }} - {{ post.lang }} - {{ post.ref }}</p>
     {% else%}
     {% assign post = group.items [0]%}
     <p>ELSE - {{ post.lang }} - {{ post.ref }}</p>
