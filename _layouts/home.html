@@ -20,9 +20,10 @@ layout: archive
     {% for group in items_grouped%}
     {% if group.items.size> 1%}
     {% assign post = group.items | where: "lang", page.lang | first%}
-    <p>{{ post.lang }} - {{ post.ref }}</p>
+    <p>GT1 - {{ post.lang }} - {{ post.ref }}</p>
     {% else%}
     {% assign post = group.items [0]%}
+    <p>ELSE - {{ post.lang }} - {{ post.ref }}</p>
     {% endif%}
     {% include archive-single.html%}
     {% endfor%}
