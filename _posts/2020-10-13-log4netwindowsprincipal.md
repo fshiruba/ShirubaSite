@@ -8,6 +8,7 @@ excerpt: "PlatformNotSupportedException using Log4Net on Linux"
 toc: true
 toc_label: "Navigation"
 toc_icon: "columns"
+ref: l4nl4m1
 ---
 
 **TL;DR:** log4net + log4mongo problem, ended up not using log4net
