@@ -1,9 +1,8 @@
-
 en:
   label: English
-  icon: 🇬🇧
+  icon: GB
   read_it_in: "Read it in"
-pr:
+br:
   label: Português
   icon: BR
   read_it_in: "Ler em"
