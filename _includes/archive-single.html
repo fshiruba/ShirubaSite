@@ -32,12 +32,11 @@
             {% assign versions=site.posts | where:"ref", post.ref | sort: 'lang' %}
             {% if versions.size > 1 %}
             {% for version in versions %}
-        <p>{{ version.lang }} - {{ site.lang }}</p>
-        {% if version.lang != site.lang %}
-        <a href="{{ version.url | relative_url
-            }}">{{ site.data.i18n[version.lang].icon }} </a>
-        {% endif %}
-        {% endfor %}
+                <p>{{ version.lang }} - {{ site.lang }}</p>
+                {% if version.lang != site.lang %}
+                    <a href="{{ version.url | relative_url }}">{{ site.data.i18n[version.lang].icon }} </a>
+                {% endif %}
+            {% endfor %}
         {% endif %}
         </p>
         {% endif %}
