@@ -8,15 +8,24 @@ layout: archive
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
+  {% assign items_grouped = paginator.posts | group_by: 'ref'%}
 {% else %}
   {% assign posts = site.posts %}
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
+
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
+  
+  {% for group in items_grouped%}
+    {% if group.items.size> 1%}
+        {% assign post = group.items | where: "lang", page.lang | first%}
+    {% else%}
+        {% assign post = group.items [0]%}
+    {% endif%}
+    {% include archive-single.html%}
+  {% endfor%}
+  
 </div>
 
 {% include paginator.html %}
