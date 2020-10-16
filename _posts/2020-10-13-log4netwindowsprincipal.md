@@ -4,7 +4,7 @@ title:  "A Log4Net bug wasted my time today"
 date:   2020-10-14 18:40:00 -0300
 categories: C# English
 tags: Log4Net Log4Mongo Bug C#
-excerpt: "PlatformNotSupportedException com Log4Net"
+excerpt: "PlatformNotSupportedException using Log4Net on Linux"
 toc: true
 toc_label: "Navigation"
 toc_icon: "columns"
