@@ -16,16 +16,17 @@ layout: archive
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 
 <div class="entries-{{ entries_layout }}">
-  
-  {% for group in items_grouped%}
+
+    {% for group in items_grouped%}
     {% if group.items.size> 1%}
-        {% assign post = group.items | where: "lang", page.lang | first%}
+    {% assign post = group.items | where: "lang", page.lang | first%}
+    <p>{{ post.lang }} - {{ post.ref }}</p>
     {% else%}
-        {% assign post = group.items [0]%}
+    {% assign post = group.items [0]%}
     {% endif%}
     {% include archive-single.html%}
-  {% endfor%}
-  
+    {% endfor%}
+
 </div>
 
 {% include paginator.html %}
