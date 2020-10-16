@@ -28,6 +28,7 @@
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
+lang                     : en #https://juan.pallares.me/configure-jekyll-multi-language-without-plugin/
 locale                   : "en-US"
 title                    : "Super Shiruba Show"
 title_separator          : "-"
