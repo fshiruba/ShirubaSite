@@ -18,7 +18,7 @@ layout: archive
 <div class="entries-{{ entries_layout }}">
   
   {% for group in items_grouped%}
-    {% if group.items.size>= 1%}
+    {% if group.items.size> 1%}
         {% assign post = group.items | where: "lang", page.lang | first%}
     {% else%}
         {% assign post = group.items [0]%}
