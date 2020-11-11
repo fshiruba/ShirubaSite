@@ -27,7 +27,7 @@ Essas duas propriedades **não** são a mesma coisa!
 
 O que acontece "de baixo dos panos" é:
 
-```C#
+{% highlight c# linenos %}
 public class C
 {
 	readonly Foo _a = new Foo();
@@ -42,7 +42,7 @@ public class C
 		get { return new Foo(); }
 	}
 }
-```
+{% endhighlight %}
 
 O artigo original vai um pouco além do meu resumo e é uma leitura de aproximadamente 1 minuto se você entende inglês.
 
