@@ -4,6 +4,7 @@ title:  "Some curious stuff about c# properties"
 date:   2020-11-11 09:13:00 -0300
 categories: C# English
 tags: C#
+lang: en
 excerpt: "Difference between => and { get; } = for properties"
 ref: csharppropen1
 ---
