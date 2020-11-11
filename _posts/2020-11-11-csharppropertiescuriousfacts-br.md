@@ -9,7 +9,7 @@ excerpt: "Diferença entre => e { get; } = para propriedades"
 ref: csharppropen1
 ---
 
-Está é uma **tradução livre/resumo** do artigo de Jiří Činčura encontrado [aqui](https://www.tabsoverspaces.com/233844-back-to-csharp-basics-difference-between-and-get-for-properties)
+Está é uma **tradução livre/resumo** do artigo de Jiří Činčura encontrado [aqui](https://www.tabsoverspaces.com/233844-back-to-csharp-basics-difference-between-and-get-for-properties){:target="_blank"}
 
 Nesse artigo Jiří menciona que embora produzindo resultados similares os usos de "=>" e "{ get; } =" são bem diferentes por baixo dos panos.
 
