@@ -11,4 +11,4 @@ ref: csharppropen1
 
 This is just a redirect for this amazing article by Jiří Činčura 
 
-the article is [here](https://www.tabsoverspaces.com/233844-back-to-csharp-basics-difference-between-and-get-for-properties)
+the article is [here](https://www.tabsoverspaces.com/233844-back-to-csharp-basics-difference-between-and-get-for-properties){:target="_blank"}
