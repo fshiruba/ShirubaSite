@@ -15,13 +15,13 @@ Nesse artigo Jiří menciona que embora produzindo resultados similares os usos 
 
 Veja o exemplo que ele passa:
 
-```C#
+{% highlight c# linenos %}
 public class C
 {
 	public Foo A { get; } = new Foo();
 	public Foo B => new Foo();
 }
-```
+{% endhighlight %}
 
 Essas duas propriedades **não** são a mesma coisa!
 
